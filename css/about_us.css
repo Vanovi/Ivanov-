@@ -1,0 +1,90 @@
+.header {
+	position: absolute;
+	height: 100px; 
+	width: 100%;
+	margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: green;
+	color: white;
+	}
+
+.middle {
+	position: absolute;
+	height: 700px; 
+	width: 100%;
+	margin-top: 18%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: blue;
+	color: white;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #00b300;
+	}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+header>*{
+	display:inline-block;
+	width: 49.86%;
+}
+
+header>h1{
+	font-family: Single;
+	text-align:center;
+}
+
+@font-face{
+	font-family: Single;
+	src: url(../fonts/single.ttf);
+}
+
+.FLicons{
+		width: 24px;
+		height: 24px;
+	}
+
+	*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+	footer>div>div {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    width: 33%;
+    height: 80px;
+    display: inline-block;
+    padding-left: 55px;
+    vertical-align: top;
+	}
+
+		footer>div {
+    width: 800px;
+    margin: 0 auto;
+	}
